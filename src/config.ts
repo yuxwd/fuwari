@@ -8,17 +8,17 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Fuwari",
-	subtitle: "Demo Site",
+	title: "电灯灯地球的博客",
+	subtitle: "睡觉大赛冠军",
 	lang: "zh_CN", // 语言代码，例如 'en'（英语）、'zh_CN'（简体中文）、'ja'（日语）等。
 	themeColor: {
 		hue: 345, // 主题色的默认色调，取值范围为 0 到 360。例如：红色: 0，蓝绿色: 200，青色: 250，粉色: 345
 		fixed: false, // 对访客隐藏主题色选择器
 	},
 	banner: {
-		enable: false,
-		src: "assets/images/demo-banner.png", // 相对于 /src 目录的路径。如果以 '/' 开头，则相对于 /public 目录
-		position: "top", // 等同于 object-position，仅支持 'top'（顶部）、'center'（居中）、'bottom'（底部），默认为 'center'
+		enable: true,
+		src: "assets/images/demo-banner.webp", // 相对于 /src 目录的路径。如果以 '/' 开头，则相对于 /public 目录
+		position: "center", // 等同于 object-position，仅支持 'top'（顶部）、'center'（居中）、'bottom'（底部），默认为 'center'
 		credit: {
 			enable: false, // 显示横幅图片的署名文本
 			text: "", // Credit text to be displayed
@@ -30,12 +30,6 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // 目录中显示的最大标题深度，取值范围为 1 到 3
 	},
 	favicon: [
-		{
-			src: "src/assets/images/demo-avatar.png",
-			theme: "dark",
-			sizes: "32x32",
-		},
-
 		// 将此数组留空以使用默认的网站图标
 		// {
 		//   src: '/favicon/icon.png',    // 网站图标的路径，相对于 /public 目录

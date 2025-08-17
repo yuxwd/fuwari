@@ -1,18 +1,18 @@
 ---
-title: Simple Guides for Fuwari
+title: Fuwari 的简单指南
 published: 2024-04-01
-description: "How to use this blog template."
+description: "如何使用这个博客"
 image: "./cover.jpeg"
-tags: ["Fuwari", "Blogging", "Customization"]
-category: Guides
+tags: ["Fuwari", "博客", "指南"]
+category: "指南"
 draft: false
 ---
 
-> Cover image source: [Source](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/208fc754-890d-4adb-9753-2c963332675d/width=2048/01651-1456859105-(colour_1.5),girl,_Blue,yellow,green,cyan,purple,red,pink,_best,8k,UHD,masterpiece,male%20focus,%201boy,gloves,%20ponytail,%20long%20hair,.jpeg)
+> 封面图片来源: [Source](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/208fc754-890d-4adb-9753-2c963332675d/width=2048/01651-1456859105-(colour_1.5),girl,_Blue,yellow,green,cyan,purple,red,pink,_best,8k,UHD,masterpiece,male%20focus,%201boy,gloves,%20ponytail,%20long%20hair,.jpeg)
 
-This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
+这个博客模板是用 [Astro](https://astro.build/). 构建的。对于本指南中没有提到的事情，您可以在 [Astro Docs](https://docs.astro.build/).
 
-## Front-matter of Posts
+## 帖子的头信息
 
 ```yaml
 ---
@@ -36,11 +36,11 @@ draft: false
 | `category`    | The category of the post.                                                                                                                                                                                   |
 | `draft`        | If this post is still a draft, which won't be displayed.                                                                                                                                                    |
 
-## Where to Place the Post Files
+## 在哪里放置 Post 文件
 
 
 
-Your post files should be placed in `src/content/posts/` directory. You can also create sub-directories to better organize your posts and assets.
+你的文章文件应该放在 `src/content/posts/` 目录下。您还可以创建子目录，以更好地组织您的帖子和资产
 
 ```
 src/content/posts/
